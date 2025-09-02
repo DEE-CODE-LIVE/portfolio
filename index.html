@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srilakshmi's Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+    <div class="logo">Srilakshmi's Portfolio</div>
+    <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="menu-toggle">☰</div>
+</header>
+
+
+    <section id="home" class="hero">
+    <div class="hero-left">
+        <p class="intro-text">Hi, This is</p>
+        <h1 class="hero-name">SRILAKSHMI KOKANTI</h1>
+        <h2 class="hero-role">Data Engineer</h2>
+        <p>
+            Building scalable, high-performance data platforms across AWS, Azure, 
+            and GCP to turn raw data into actionable insights.
+        </p>
+        <div class="hero-buttons">
+            <a href="#projects" class="btn primary">View My Work</a>
+            <a href="#contact" class="btn secondary">Hire Me</a>
+        </div>
+    </div>
+
+
+        <div class="hero-right">
+            <img src="images\me.png" alt="Srilakshmi" class="profile-circle">
+        </div>
+        
+    </section>
+
+    <section id="about" class="about-section">
+  <div class="about-left">
+    <h2>About Me</h2>
+    <p>
+      I’m a Data Engineer with <strong>5 years of experience</strong> designing, building, and optimizing
+      scalable, high-performance data platforms across <strong>finance, healthcare, insurance, and manufacturing</strong>.
+      My passion is turning raw, complex datasets into valuable, actionable insights.
+    </p>
+
+    <p>
+      I specialize in cloud-native architectures on
+      <strong>AWS</strong> (S3, EC2, EMR, Redshift, Lambda, Kinesis, SageMaker),
+      <strong>Azure</strong> (Data Factory, Data Lake, Synapse, Databricks, Azure SQL, Azure DevOps),
+      and <strong>GCP</strong> (BigQuery, Dataproc, Cloud Functions, Vertex AI).
+      I’ve built both <strong>batch and real-time pipelines</strong> using Apache Spark (PySpark, SQL, MLlib),
+      Kafka, Hadoop (Hive, Sqoop, HDFS), and orchestration tools like Airflow, AWS Glue, and Azure Data Factory.
+    </p>
+
+    <p>
+      My work covers the full data lifecycle: ingestion, transformation, storage, governance, and delivery.
+      I’ve designed <strong>dimensional models</strong> (star/snowflake schemas),
+      implemented <strong>Lakehouse architectures</strong> with Delta Lake and Iceberg,
+      and integrated systems with CI/CD pipelines using Jenkins, Git, Docker, Kubernetes, and Terraform.
+    </p>
+
+    <p>
+      Beyond engineering, I create <strong>data visualization</strong> and monitoring solutions
+      in Power BI, Tableau, QuickSight, Grafana, and Kibana empowering stakeholders
+      to make fast, informed decisions.
+    </p>
+
+    <p>
+      My projects range from <strong>real-time fraud detection pipelines</strong> for insurance,
+      to <strong>healthcare data platforms</strong> for clinical analytics,
+      to <strong>predictive maintenance systems</strong> for manufacturing.
+      I thrive in collaborative, cross-functional teams and am always learning new tools
+      to stay ahead in the evolving data landscape.
+    </p>
+  </div>
+
+
+    <div class="about-right">
+        <img src="images/project1.png" alt="Project Preview 1">
+        <img src="images/project2.png" alt="Project Preview 2">
+    </div>
+</section>
+
+
+<section id="work" class="work-section">
+  <h2>Work Experience</h2>
+
+  <div class="work-card">
+    <div class="work-left">
+      <span class="company">Zurich Insurance Group</span>
+      <h3 class="role">Azure Data Engineer</h3>
+      <p class="duration">Aug 2024 – Jul 2025 | Overland Park, KS</p>
+    </div>
+    <div class="work-right">
+      <ul>
+        <li>Designed and implemented Azure-based pipelines with Data Factory, Databricks, and Synapse.</li>
+        <li>Built Kafka + Spark Structured Streaming workflows for anomaly detection, improving fraud monitoring.</li>
+        <li>Migrated SQL databases to Azure SQL & Data Lake, improving reliability and accessibility.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="work-card">
+    <div class="work-left">
+      <span class="company">Pfizer</span>
+      <h3 class="role">AWS Data Engineer</h3>
+      <p class="duration">Jan 2024 – Jul 2024 | Kansas City, MO</p>
+    </div>
+    <div class="work-right">
+      <ul>
+        <li>Architected AWS Glue, Lambda, and Redshift pipelines to support healthcare analytics.</li>
+        <li>Optimized EMR clusters to improve query performance by 60%.</li>
+        <li>Delivered clean datasets for machine learning teams, reducing data prep time.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="work-card">
+    <div class="work-left">
+      <span class="company">Accenture</span>
+      <h3 class="role">Data Engineering Associate</h3>
+      <p class="duration">Sep 2022 – Jul 2023 | Hyderabad, India</p>
+    </div>
+    <div class="work-right">
+      <ul>
+        <li>Developed big data pipelines on GCP to process IoT sensor data for real-time analytics.</li>
+        <li>Automated ETL workflows with Airflow, reducing manual processing efforts.</li>
+        <li>Optimized time-series database performance, improving analytics efficiency.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="work-card">
+    <div class="work-left">
+      <span class="company">Citi Bank</span>
+      <h3 class="role">Data Engineer</h3>
+      <p class="duration">Apr 2020 – Aug 2022 | Chennai, India</p>
+    </div>
+    <div class="work-right">
+      <ul>
+        <li>Built and maintained large-scale Spark and Hadoop pipelines for financial risk analysis.</li>
+        <li>Integrated Kafka for real-time ingestion and fraud detection workflows.</li>
+        <li>Streamlined ETL processes to reduce reporting time and enhance monitoring.</li>
+      </ul>
+    </div>
+  </div>
+
+</section>
+
+    
+<section id="education" class="education-section">
+  <h2>Education</h2>
+
+  <div class="edu-card">
+    <div class="edu-left">
+      <span class="school">University of Central Missouri</span>
+      <h3 class="degree">Master’s in Computer Science</h3>
+      <p class="duration">Aug 2023 – May 2025 | Warrensburg, MO</p>
+    </div>
+    <div class="edu-right">
+      <ul>
+        <li>Focused on data engineering, cloud platforms, and big data processing.</li>
+        <li>Completed advanced coursework in distributed systems, machine learning, and database design.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+    <section id="skills" class="skills-section">
+  <h2>Skills</h2>
+
+  <!-- Skill Tabs -->
+  <div class="skill-tabs">
+    <button class="tab active" data-tab="b1">Programming</button>
+    <button class="tab" data-tab="b2">Data Engineering</button>
+    <button class="tab" data-tab="b3">Cloud Platforms</button>
+    <button class="tab" data-tab="b4">DevOps & Tools</button>
+  </div>
+
+  <!-- Skills Content -->
+  <div class="skills-content">
+    <!-- Programming -->
+    <div class="tab-content active" id="b1">
+  <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"><h4>Python</h4></div>
+  <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="SQL"><h4>SQL</h4></div>
+  <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"><h4>HTML</h4></div>
+  <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" alt="Scala"><h4>Scala</h4></div>
+  <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas"><h4>Pandas</h4></div>
+  <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy"><h4>NumPy</h4></div>
+</div>
+
+
+    <!-- Data Engineering -->
+  <div class="tab-content" id="b2">
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/spark-original.svg" alt="Apache Spark">
+    <h4>Apache Spark</h4>
+  </div>
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="Apache Kafka">
+    <h4>Apache Kafka</h4>
+  </div>
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" alt="Apache Airflow">
+    <h4>Apache Airflow</h4>
+  </div>
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hadoop/hadoop-original.svg" alt="Hadoop">
+    <h4>Hadoop</h4>
+  </div>
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachehive/apachehive-original.svg" alt="Apache Hive">
+    <h4>Apache Hive</h4>
+  </div>
+  <div class="skill-card">
+    <img src="https://seeklogo.com/images/D/dbt-logo-500AB0BAA7-seeklogo.com.png" alt="DBT">
+    <h4>DBT</h4>
+  </div>
+</div>
+
+
+    <!-- Cloud Platforms -->
+    <div class="tab-content" id="b3">
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS">
+    <h4>AWS</h4>
+  </div>
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure">
+    <h4>Azure</h4>
+  </div>
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="GCP">
+    <h4>GCP</h4>
+  </div>
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redshift/redshift-original.svg" alt="Redshift">
+    <h4>Redshift</h4>
+  </div>
+  <div class="skill-card">
+    <img src="https://cdn.worldvectorlogo.com/logos/snowflake-2.svg" alt="Snowflake">
+    <h4>Snowflake</h4>
+  </div>
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlebigquery/googlebigquery-original.svg" alt="BigQuery">
+    <h4>BigQuery</h4>
+  </div>
+</div>
+
+
+    <!-- DevOps & Tools -->
+    <div class="tab-content" id="b4">
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+    <h4>Docker</h4>
+  </div>
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes">
+    <h4>Kubernetes</h4>
+  </div>
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+    <h4>Git</h4>
+  </div>
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+    <h4>GitHub</h4>
+  </div>
+  <div class="skill-card">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins">
+    <h4>Jenkins</h4>
+  </div>
+  <div class="skill-card">
+    <img src="https://cdn.worldvectorlogo.com/logos/grafana.svg" alt="Grafana">
+    <h4>Grafana</h4>
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+
+
+    <section id="projects" class="projects-section">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+
+    <!-- Project Card 1 -->
+    <div class="project-card">
+      <div class="card-inner">
+        
+        <!-- Front -->
+        <div class="card-front">
+          <img src="images\real-time project.png" alt="Real-Time Stock Streaming">
+          <h3>Real-Time Stock Streaming</h3>
+          <p>Stream live stock prices from APIs into Kafka, process with Spark, and store in Snowflake.</p>
+        </div>
+
+        <!-- Back -->
+        <div class="card-back">
+          <h3>Real-Time Stock Streaming</h3>
+          <p>
+            Built an end-to-end streaming pipeline using Kafka, Spark Structured Streaming, and Snowflake to ingest and process live stock price data in real time for analytics and dashboarding.
+          </p>
+          <a href="https://github.com/DEE-CODE-LIVE/real-time-stock-streaming" target="_blank">View on GitHub</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Project Card 2 -->
+    <div class="project-card">
+      <div class="card-inner">
+        
+        <!-- Front -->
+        <div class="card-front">
+          <img src="images\kafka.png" alt="Lakehouse E-Commerce">
+          <h3>Lakehouse E-Commerce Analytics</h3>
+          <p>Data lakehouse pipeline for e-commerce analytics with Delta Lake and Databricks.</p>
+        </div>
+
+        <!-- Back -->
+        <div class="card-back">
+          <h3>Lakehouse E-Commerce Analytics</h3>
+          <p>
+            Designed a modern data lakehouse architecture on Databricks with Delta Lake, enabling scalable ETL, data modeling, and analytics for e-commerce transactions and customer behavior insights.
+          </p>
+          <a href="https://github.com/DEE-CODE-LIVE/lakehouse-ecommerce/tree/master" target="_blank">View on GitHub</a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+    <section id="contact" class="contact-section">
+    <h2>Let's talk about everything!</h2>
+    <p>Don't like forms? <a href="mailto:srilakshmi.june25@gmail.com">Send me an email.</a> 👋</p>
+    
+    <form class="contact-form" action="mailto:srilakshmi.june25@gmail.com" method="POST" enctype="text/plain">
+        <input type="text" name="name" placeholder="Insert your name" required>
+        <input type="email" name="email" placeholder="Insert your email" required>
+        <input type="text" name="subject" placeholder="Insert your subject">
+        <textarea name="message" placeholder="Write your message" rows="5" required></textarea>
+        <button type="submit" class="btn-send">Send Message</button>
+    </form>
+    </section>
+
+    <div class="follow-me">
+        <p>Follow Me:</p>
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+    </div>
+
+    <script src="scripts/main.js"></script>
+    <footer>
+    <p>© 2025 Srilakshmi Kokanti. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
